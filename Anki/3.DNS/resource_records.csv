@@ -1,0 +1,12 @@
+DNS Record,<code>A</code>,Maps a domain to an IPv4 address.
+DNS Record,<code>AAAA</code>,Maps a domain to an IPv6 address.
+DNS Record,<code>NS</code>,Specifies the nameservers for a domain.
+DNS Record,<code>CNAME</code>,Maps an alias to the canonical domain name.
+DNS Record,<code>PTR</code>,Used for reverse DNS lookups.
+DNS Record,<code>OPT</code>,EDNS option
+DNS Record,<code>SOA</code>,Indicates the start of authority for a zone.
+DNS Record,<code>AXFR</code>,Authoritative transfer of an entire zone.
+DNS Record,<code>TXT</code>,Carries arbitrary human-readable text or machine-readable data.
+DNS Record,<code>HINFO</code>,Carries host information.
+DNS Record,<code>SRV</code>,Specifies service location records.
+DNS Record,<code>MX</code>,Identifies the mail exchange server for a domain.

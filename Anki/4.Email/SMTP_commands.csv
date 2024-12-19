@@ -1,0 +1,12 @@
+SMTP Command,<code>HELO</code>,To identify the origin to the destination
+SMTP Command,<code>MAIL FROM:&lt;from&gt;</code>,To start an email transaction
+SMTP Command,<code>RCPT TO:&lt;to&gt;</code>,To specify one email recipient
+SMTP Command,<code>DATA</code>,"To send the message (rfc822, MIME)"
+SMTP Command,<code>QUIT</code>,To tell the recipient to send OK and close the connection
+SMTP Command,<code>RSET</code>,"Aborts current email transaction "
+SMTP Command,<code>VRFY &lt;user&gt;</code>,Asks destination if there is any user &lt;user&gt;
+SMTP Command,<code>NOOP</code>,No operation. The destination answers “200: OK”
+SMTP Command,<code>EXPN &lt;ml&gt;</code>,"Asks the destination to confirm if the email list &lt;ml&gt; exists "
+SMTP Command,<code>HELP [command]</code>,"Sends list of available commands or information about [command] "
+SMTP Command,<code>TURN</code>,Exchanges the roles of origin (client) and destination (server)
+SMTP Command,"<code>RCPT TO/MAIL FROM: &lt;@host-a,@host-b:user@host-c&gt;</code>",Mail relaying through host-b and host-c to get to user@host-a

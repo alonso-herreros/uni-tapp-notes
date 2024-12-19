@@ -1,0 +1,12 @@
+POP Command,<code>USER &lt;name&gt;<br/>PASS &lt;password&gt;</code>,Authenticate with username and password
+POP Command,<code>STAT</code>,"Get number of messages and of octets in the mailbox (excluding marked for deletion) "
+POP Command,<code>LIST [msg]</code>,List messages or show message
+POP Command,<code>RETR &lt;msg&gt;</code>,Retrieve a message from the server
+POP Command,<code>DELE &lt;msg&gt;</code>,Mark a message for deletion
+POP Command,<code>NOOP</code>,Do nothing
+POP Command,<code>LAST</code>,Get the last email accessed
+POP Command,<code>RSET</code>,Drop deletion marks
+POP Command,<code>QUIT</code>,"Confirm transaction, deleting messages marked for deletion"
+POP Command,<code>TOP &lt;msg&gt; [n]</code>,Retrieve the headers and first n lines of the message
+POP Command,<code>RPOP &lt;user&gt;</code>,rhost-like alternative authentication
+POP Command,<code>APOP &lt;user&gt; &lt;MD5(nonce+password)&gt;</code>,Authenticate encrypting the password using the server's announced nonce

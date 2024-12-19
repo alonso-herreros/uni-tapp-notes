@@ -1,0 +1,7 @@
+HTTP Request,<code>GET &lt;/resource&gt; [HTTP/]</code>,"Fetch a resource"
+HTTP Status code,<code>200</code>,"Request successful"
+HTTP Header,<code>Authorization: Basic &lt;base64(username:passwd)&gt;</code>,"Allows basic authorization"
+HTTP Header,<code>Cache-Control: no-store</code>,"Prevents storing responses"
+HTTP Header,<code>Connection: &lt;keep-alive|close&gt;</code>,"Controls connection persistence or immediate closing"
+HTTP Header,<code>Connection: upgrade<br/>Upgrade: h2[c]</code>,"Switch protocols to HTTP/2, reusing connection. Extra character for http, not https"
+HTTP Header,<code>Content-Type: &lt;type/subtype&gt;</code>,"Specify MIME type of body"

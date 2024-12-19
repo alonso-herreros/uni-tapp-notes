@@ -1,0 +1,5 @@
+"What HTTP status code indicates successful request processing?<br>- A: 200<br>- B: 403<br>- C: 500<br>- D: 301","A"
+"What is the function of the PUT HTTP method?<br>- A: Deletes a resource<br>- B: Updates or creates a resource<br>- C: Requests metadata only<br>- D: Fetches a resource","B"
+"In HTTP/2, what does the SETTINGS frame do?<br>- A: Carries headers<br>- B: Configures connection parameters<br>- C: Terminates a stream<br>- D: Sends metadata","B"
+"What does the HTTP/1.1 'Connection: close' header do?<br>- A: Keeps the connection open<br>- B: Closes the connection after the response<br>- C: Upgrades the connection<br>- D: Compresses the data","B"
+"What Cache-Control directive disallows storage of the resource?<br>- A: no-cache<br>- B: no-store<br>- C: public<br>- D: must-revalidate","B"

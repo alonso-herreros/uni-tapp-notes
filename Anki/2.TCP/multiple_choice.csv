@@ -1,0 +1,4 @@
+Which field in the TCP header is used to detect duplicate segments?                             <ul><li>A) Sequence Number</li><li>B) Header Length</li><li>C) Urgent Pointer</li><li>D) Reserved</li></ul>,<ul><li>A</li></ul>
+Which TCP option is used to expand the maximum window size?                                     <ul><li>A) Timestamp</li><li>B) Window Scaling</li><li>C) MSS</li><li>D) Selective Acknowledgment</li></ul>,<ul><li>B</li></ul>
+What is the primary purpose of delayed acknowledgments in TCP?                                  <ul><li>A) Reduce retransmissions</li><li>B) Combine acknowledgment with data</li><li>C) Minimize header overhead</li><li>D) Prevent congestion collapse</li></ul>,<ul><li>B</li></ul>
+Which algorithm helps control congestion by reducing the congestion window after a packet loss? <ul><li>A) Nagle's Algorithm</li><li>B) TCP Reno</li><li>C) Slow Start</li><li>D) Fast Retransmit</li></ul>,<ul><li>C</li></ul>

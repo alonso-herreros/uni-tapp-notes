@@ -1,0 +1,5 @@
+What does the sequence number in a TCP segment represent?,Position of the first byte in the segment within the total byte stream.
+What is the purpose of the acknowledgment number in TCP?,Indicates the next byte expected by the receiver.
+What is the maximum value for the TCP window size without scaling?,"65,535 bytes."
+How does TCP ensure ordered delivery of packets?,By using sequence numbers and buffering segments for reassembly
+What is the function of the retransmission timer in TCP?,Retransmits a segment if no acknowledgment is received within a specified time.

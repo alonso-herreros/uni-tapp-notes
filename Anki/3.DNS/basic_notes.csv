@@ -1,0 +1,22 @@
+What is the role of a DNS resolver in the DNS hierarchy?,It resolves domain names to IP addresses on behalf of clients.
+What is the purpose of the TTL (Time to Live) in a DNS record?,It specifies how long a record should be cached by DNS resolvers.
+What is a recursive DNS query?,A query where the DNS server resolves the entire request on behalf of the client.
+What is an iterative DNS query?,A query where the DNS server responds with a referral to another server.
+What is the function of root servers in DNS?,They direct queries to the appropriate top-level domain (TLD) servers.
+What is DNS caching?,The process of temporarily storing DNS query results to improve efficiency and reduce latency.
+What is DNS spoofing?,A type of attack where false DNS data is introduced to redirect users to malicious sites.
+What is the difference between authoritative and non-authoritative DNS responses?,"Authoritative responses come directly from the domain's nameserver, while non-authoritative responses are from a cache."
+What is the function of a TLD (Top-Level Domain) server?,"It handles queries for domains within a specific top-level domain, like .com or .org."
+What is DNSSEC?,A security extension to DNS that ensures data authenticity and integrity using digital signatures.
+What is the difference between forward and reverse DNS lookups?,"Forward resolves domain names to IPs, while reverse resolves IPs to domain names."
+What happens during a DNS zone transfer?,Data is transferred from a primary server to secondary servers to synchronize the zone.
+What is the purpose of a stub resolver?,A lightweight resolver that forwards DNS queries to a recursive resolver.
+What is the significance of the 'dig' command in DNS?,It is a tool used to query DNS servers for records and debug issues.
+What is a split-horizon DNS?,A setup where DNS servers provide different responses based on the requester’s location or network.
+What is the concept of DNS round-robin?,A load-balancing technique where multiple IPs are returned for a single domain in a rotating order.
+What is an NXDOMAIN response in DNS?,A response indicating that the queried domain does not exist.
+What is a DNS forwarding server?,A server that forwards DNS queries to another server instead of resolving them itself.
+What is a wildcard DNS record?,A record that matches all subdomains under a specific domain.
+How does DNS handle load balancing?,By distributing traffic among multiple IP addresses for a single domain.
+What is the purpose of a reverse DNS PTR record?,To map an IP address back to its associated domain name.
+What is DNS amplification?,A DDoS attack that exploits DNS servers to flood a target with traffic.
